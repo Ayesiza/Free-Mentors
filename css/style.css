@@ -1,0 +1,167 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bg-img {
+    background-color: rgb(19, 18, 18);
+    background-size: cover;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(19, 18, 18);
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+
+  .page-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+  .card{
+    display:flex;
+  }
+  
+  ul {
+    padding: 0;
+    background-color: rgb(36, 37, 35);
+    
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+    
+  }
+  
+  
+  li a {
+    display: block;
+    color:orangered;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .logo {
+    background-color: grey;
+  }
+  
+  /* .card {
+    max-width: 300px;
+    margin: 10px;
+    background-color: grey;
+    text-align: center;
+    font-family: arial;
+    border: solid 1px gainsboro;
+  } */
+  
+  /* .nav-select {
+    margin: 8px;
+    padding: 5px 10px;
+    font-size: 14px;
+  } */
+  
+  .card-container {
+    height: auto;
+    padding-bottom: 10px;
+  } 
+  
+  /* .card img {
+    height: 200px;
+    width: 100%;
+  } */
+  
+  .right-nav {
+    float: right;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Add styles to the form container */
+  
+   /* .container {
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+  }   */
+  .highlights {
+    color: orangered;
+    text-align: left
+  }
+  .hide-overflow {
+    overflow: hidden;
+  }
+  
+   /* .container-hero{
+    display: flex;
+    height: 250px;
+    background: rgb(19, 18, 18);
+    justify-content: center;
+  } */
+  /* .land-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  } */
+  
+  .product-card{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  
+  }
+
+  .product-card img{
+    width:40%
+  }
+  
+  .product-card .card-container{
+    width: 50%;
+    background: gainsboro;
+    text-align: center;
+  }
+   
