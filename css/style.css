@@ -1,17 +1,12 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .bg-img {
-    background-color: rgb(19, 18, 18);
-    background-size: cover;
-  }
+
   
   body {
     margin: 0;
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(48, 45, 45);
   }
-  
   
   a{
     text-decoration: none;
@@ -23,31 +18,19 @@ html {
     height: 100%;
     justify-content: center;
     margin-top: 100px;
-  }
+    
+  }  
   
-  .page-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 30px;
-    flex-wrap: wrap;
-  }
-  
-  .nav-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    z-index: 1030;
-  }
   .card{
     display:flex;
+  }
+    .active {
+    background-color:rgb(4, 4, 121);
   }
   
   ul {
     padding: 0;
-    background-color: rgb(36, 37, 35);
+    background-color:rgb(26, 116, 201);
     
   }
   
@@ -60,108 +43,199 @@ html {
   
   li a {
     display: block;
-    color:orangered;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  .logo {
-    background-color: grey;
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1030;
   }
-  
-  /* .card {
-    max-width: 300px;
-    margin: 10px;
-    background-color: grey;
-    text-align: center;
-    font-family: arial;
-    border: solid 1px gainsboro;
-  } */
-  
-  /* .nav-select {
-    margin: 8px;
-    padding: 5px 10px;
-    font-size: 14px;
-  } */
+  .logo {
+    background-color: rgb(30, 21, 107);
+  }
   
   .card-container {
     height: auto;
     padding-bottom: 10px;
   } 
   
-  /* .card img {
-    height: 200px;
-    width: 100%;
-  } */
-  
   .right-nav {
     float: right;
   }
   
-  .formInput {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 3px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
   .form {
     border-radius: 5px;
-    background-color: gainsboro;
+    background-color: rgb(31, 29, 29);
     padding: 20px;
     margin-top: 50px;
   }
-  
+  h3 {
+    color: white;
+    text-align: center;
+  }
+  .formInput {
+    width: 100%;
+    padding: 12px 20px;
+    background-color:rgb(26, 116, 201);
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
   /* Add styles to the form container */
-  
-   /* .container {
+.bg-img{
+    background-image: url('/images/back2.png');
+}
+.bg-img {
+    background-size: cover;
+  }
+   .container {
     margin: 20px;
     max-width: 300px;
     padding: 16px;
-    background-color: white;
+    background-color:rgb(4, 4, 121);
     margin-top: 50px;
     border-radius: 5px;
-    text-align: center;
-  }   */
-  .highlights {
-    color: orangered;
-    text-align: left
-  }
+    text-align: center; 
+    box-shadow: 0 20px 20px 0 black;
+   }
+.button {
+        background: rgb(26, 116, 201);
+        color:wheat;
+        width: 100px;
+        padding: 10px 20px;
+        margin-top: 1px;
+        border-radius: 5px;
+        border: solid 2px gainsboro;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+.button:hover {
+        background: rgb(26, 116, 201);
+        color: gainsboro;
+      }
+   
+ 
   .hide-overflow {
     overflow: hidden;
   }
   
-   /* .container-hero{
-    display: flex;
-    height: 250px;
-    background: rgb(19, 18, 18);
-    justify-content: center;
-  } */
-  /* .land-wrapper {
+   
+  .page-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
     flex-wrap: wrap;
-  } */
+  }
   
   .product-card{
     display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 0;
   
   }
 
   .product-card img{
-    width:40%
+    width:50%
   }
   
-  .product-card .card-container{
-    width: 50%;
-    background: gainsboro;
-    text-align: center;
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1030;
+}
+::placeholder{
+color: white;
+}
+.nav-logo {
+    width: 100%; 
   }
-   
+  
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin-top: 60px;
+    
+  }
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color:rgb(4, 4, 121);
+}
+
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: 0;
+  
+    
+  
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
