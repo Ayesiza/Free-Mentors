@@ -11,9 +11,9 @@
 
 <body class="bg-img">
     <ul class="nav-bar">
-        <div class="logo">
-        <li class="nav-logo"><a class="active logo" href="index.html">FreeMentors</a></li>
-       </div>
+            <div class="logo">
+            <li class="nav-logo"><a class="active logo" href="index.html">FreeMentors</a></li>
+            </div>
         <li><a href="index.html">Home</a></li>
             <li><a href="index.html">Find a Mentor</a></li>
             <li><a href="index.html">Volunteer</a></li>
@@ -26,20 +26,23 @@
     </ul>
     <div class="page-container">
         <div>
-            <form class="container" action="signin.html">
-                <h3>SignUp</h3>
-                <input class="formInput" type="text" placeholder="First Name" required>
-                <input class="formInput" type="text" placeholder="Last Name" required>
-                <input class="formInput" type="email" placeholder="Email" required>
+            <form class="container" action="signup.html">
+                <h3>LogIn</h3>
+                
+                <input class="formInput" type="email" placeholder="Enter Email" required>
                 <input class="formInput" type="password" placeholder="Enter Password" required>              
-                <input class="formInput" type="text" placeholder="Address" required>
-                <input class="formInput" type="bio" placeholder="Bio">
-                <input class="formInput" type="occupation" placeholder="Occupation" required>
-                <input class="formInput" type="expertise" placeholder="Expertise" required>
                 <br>
-                <button class="button" type="submit">Signup</button>
+                <button class="button" type="submit">LogIn</button>
+                <p>Have no Account? <a href="signup.html">SignUp</a></p>
+                <div >
+                        <button type="button"onclick="document.getElementById('id01').style.
+                        display='none'" class="cancelbtn">Cancel </button>
+                        <span class="">Forgot <a href="">Password</a></a></span>
+                    </div>
             </form>
-        </div>
+        </div>      
     </div>
+    <script src="index.js">
+    </script>
 </body>
 </html>
