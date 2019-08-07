@@ -4,46 +4,39 @@ html {
 
 body {
   margin: 0;
-  background-color: #003542;
+  background-color: #171a1b;
 }
 
 a{
   text-decoration: none;
+  color: #da7373;
 }
-.black-block{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .page-container {
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 120px;
   
 }  
 
 ul {
   padding: 0;
-  background-color:rgb(76, 245, 180);
+  background-color:#003542;;
   
 }
 
 li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: none;
   
 }
 
 
 li a {
   display: block;
-  color:black;
+  color:#57CEA0;
   font-size: 20px;
   text-align: center;
   padding: 14px 16px;
@@ -66,7 +59,7 @@ li a {
   color:#57CEA0;
   text-align: center;
   font-size: 40px;
-  background-color:#003542;
+  background-color:#202222;
 }
 
 .right-nav {
@@ -80,7 +73,7 @@ li a {
   margin-top: 50px;
 }
 h3 {
-  color:#FF9A85;
+  color: #003542;
   text-align: center;
 }
 .formInput {
@@ -97,7 +90,6 @@ h3 {
   background-color:#003542;
     background-size: cover;
 }
-
 
  .container {
   margin: 20px;
@@ -118,8 +110,8 @@ h3 {
       font-size: 16px;
      padding: 10px 10px;
      width: 100%;
-     
     }
+
 .button:hover {
       background:#003542;
       color: gainsboro;
@@ -194,7 +186,7 @@ font-size: 30px;
 border: none;
 outline: 0;
 display: inline-block;
-padding: 8px;
+padding: 0;
 color: white;
 background-color: #003542;
 text-align: center;
@@ -215,9 +207,9 @@ flex-wrap: wrap;
 
 .card {
 box-shadow: 0 50px 50px 0 rgb(10, 10, 10);
-max-width: 300px;
+max-width: 250px;
 margin: 40px;
-background-color: rgb(177, 155, 155);
+background-color: rgb(156, 157, 180);
 text-align: center;
 font-family:New Roman;
 border: solid 1px #57CEA0;
@@ -265,7 +257,7 @@ label {
 }
 
 sup {
-  color: #FF9A85;
+  color: red;
 }
 /* view specific */
 .logo-spec{
@@ -290,4 +282,48 @@ sup {
   background: rgb(236, 219, 219);
   text-align: center;
 
+}
+/* request session */
+label {
+  color: rgb(10, 10, 10);
+  font-size: 0.9em;
+  display: block;
+  margin-left:1px; 
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.req-form {
+  width: 100%;
+  padding: 5px 1px;
+  background-color:#e2d4d4;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid rgb(194, 197, 196);
+  box-sizing: border-box;
+}
+
+.req-container {
+  max-width: 500px;
+  padding: 15px;
+  background-color:rgb(135, 177, 161);
+  margin-top: 20px;
+  box-shadow: 0 20px 20px 0 black;
+ }
+ .req-button {
+  background:#003542;;
+  color: white; 
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+ padding: 10px 10px;
+ width: 100%;
+ }
+ .req-button:hover {
+  background:#258faa;
+  color: gainsboro;
+}
+.para-form{
+  color: white;
+  font-size: 19px;
 }

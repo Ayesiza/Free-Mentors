@@ -12,13 +12,14 @@
 <body class="bg-img">
     <ul class="nav-bar">
         <div class="logo">
-        <li class="nav-logo"><a class="active logo" href="index.html">FreeMentors</a></li>
+        <li class="nav-logo"><a class="active logo" href="">FreeMentors</a></li>
        </div>
         <li><a href="index.html">Home</a></li>
-            <li><a href="view-mentors.html">Find a Mentor</a></li>
-            <li><a href="index.html">Volunteer</a></li>
-            <li><a href="index.html">Donate</a></li>
+            <li><a href="signin.html">Find a Mentor</a></li>
+            
             <div class="right-nav">
+                <li><a href="index.html">Volunteer</a></li>
+                <li><a href="index.html">Donate</a></li>
               <li><a href="index.html">AboutUS</a></li>
               
             </div>
@@ -27,11 +28,20 @@
         <div>
             <form class="container" action="signin.html">
                 <h3>SignUp</h3>
-                <input class="formInput" type="text" placeholder="First Name" required>
-                <input class="formInput" type="text" placeholder="Last Name" required>
-                <input class="formInput" type="email" placeholder="Email" required>
-                <input class="formInput" type="password" placeholder="Enter Password" required>              
-                <input class="formInput" type="text" placeholder="Address" required>
+                <label for="firstName"> First Name <sup>*</sup></label>
+                    <input class="formInput" type="text" name="firstName" required>
+    
+                    <label for="lastName"> Last Name <sup>*</sup> </label>
+                    <input class="formInput"type="text" name="lastName" required>
+    
+                    <label for="email"> Email <sup>*</sup> </label>
+                    <input class="formInput" type="email" name="email" required>
+
+                    <label for="password"> Password <sup>*</sup> </label>
+                     <input  class="formInput" type="password" name="email" required>
+
+                    <label for="address"> Address <sup>*</sup> </label>
+                    <textarea  class="formInput"name="address" id="" cols="30" rows="3"></textarea>
                 
                 <button class="button" type="submit">Signup</button>
                 <span> Already a user? <a href="signin.html" id="show-signin"> Login </a></span>
