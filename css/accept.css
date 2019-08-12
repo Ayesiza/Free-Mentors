@@ -1,0 +1,54 @@
+/* Modal Content */
+
+.modal-content {
+  background-color: #dbd6d6;
+  margin-left: 5%;
+  padding: 0px;
+  border: 1px solid #888;
+  width: 90%;
+}
+
+.accept-content {
+  background-color: #dbd6d6;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding: 10px 100px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+
+/* The Close Button */
+
+.close {
+  color: #111111;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(58, 56, 56);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dash-button {
+  background: rgb(9, 55, 66);
+  color: #57ce97;
+  margin-left: 20%;
+  margin-top: 10%;
+  border: 1px solid rgb(48, 53, 51);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 80px 10px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.dash-button:hover {
+  color: rgb(223, 12, 142);
+  background-color: rgb(17, 16, 16);
+  cursor: pointer;
+}
