@@ -9,44 +9,45 @@
     <title>FreeMentors</title>
 </head>
 
-<body class="bg-img">
+<body>
     <ul class="nav-bar">
         <div class="logo">
-        <li class="nav-logo"><a class="active logo" href="">FreeMentors</a></li>
-       </div>
+            <li class="nav-logo"><a class="active logo" href="">FreeMentors</a></li>
+        </div>
         <li><a href="index.html">Home</a></li>
-            <li><a href="signin.html">Find a Mentor</a></li>
-            
-            <div class="right-nav">
-                <li><a href="index.html">Volunteer</a></li>
-                <li><a href="index.html">Donate</a></li>
-              <li><a href="index.html">AboutUS</a></li>
-              
-            </div>
+        <li><a href="signin.html">Find a Mentor</a></li>
+        <div class="right-nav">
+            <li><a href="index.html">Volunteer</a></li>
+            <li><a href="index.html">Donate</a></li>
+            <li><a href="index.html">AboutUS</a></li>
+        </div>
     </ul>
     <div class="page-container">
         <div>
-            <form class="container" action="signin.html">
-                <h3>SignUp</h3>
-                <label for="firstName"> First Name <sup>*</sup></label>
-                    <input class="formInput" type="text" name="firstName" required>
-    
-                    <label for="lastName"> Last Name <sup>*</sup> </label>
-                    <input class="formInput"type="text" name="lastName" required>
-    
-                    <label for="email"> Email <sup>*</sup> </label>
-                    <input class="formInput" type="email" name="email" required>
+            <div class="product-card">
+                <img src="./images/mentor_stairs.jpg" alt="edward">
+                <div class="card-container">
+                    <form class="container" action="signin.html">
+                        <h3>SignUp</h3>
+                        <label for="firstName"> First Name <sup>*</sup></label>
+                        <input class="formInput" type="text" placeholder="firstName" required>
 
-                    <label for="password"> Password <sup>*</sup> </label>
-                     <input  class="formInput" type="password" name="email" required>
+                        <label for="lastName"> Last Name <sup>*</sup> </label>
+                        <input class="formInput" type="text" placeholder="lastName" required>
 
-                    <label for="address"> Address <sup>*</sup> </label>
-                    <textarea  class="formInput"name="address" id="" cols="30" rows="3"></textarea>
-                
-                <button class="button" type="submit">Signup</button>
-                <span> Already a user? <a href="signin.html" id="show-signin"> Login </a></span>
-            </form>
+                        <label for="email"> Email <sup>*</sup> </label>
+                        <input class="formInput" type="email" placeholder="email" required>
+
+                        <label for="password"> Password <sup>*</sup> </label>
+                        <input class="formInput" type="password" placeholder="password" required>
+
+                        <button class="button" type="submit">Signup</button>
+                        <span> Already a user? <a href="signin.html" id="show-signin"> Login </a></span>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>

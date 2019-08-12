@@ -12,45 +12,50 @@
 <body class="bg-img">
     <ul class="nav-bar">
         <div class="logo">
-        <li class="nav-logo"><a class="active logo" href="">FreeMentors</a></li>
-       </div>
+            <li class="nav-logo"><a class="active logo" href="">FreeMentors</a></li>
+        </div>
         <li><a href="index.html">Home</a></li>
-            
-            <div class="right-nav">
-                <li><a href="index.html">Volunteer</a></li>
-                <li><a href="index.html">Donate</a></li>
-              <li><a href="index.html">AboutUS</a></li>
-            </div>
+
+        <div class="right-nav">
+            <li><a href="accept-request.html">Volunteer</a></li>
+            <li><a href="index.html">Donate</a></li>
+            <li><a href="index.html">AboutUS</a></li>
+        </div>
     </ul>
-    
+
     <div class="page-container">
         <div>
             <p class="para-form">Fill in the this Form to make a Mentorship Request with your Mentor </p>
             <form class="req-container" action="">
                 <h3>Mentorship Request Form </h3>
-                 
-                    <label for="Name"> Your Name <sup>*</sup></label>
-                    <input class="req-form" type="text" name="Name" required>
 
-                    <label for="email"> Email <sup>*</sup> </label>
-                    <input class="req-form" type="email" name="email" required>
+                <label for="Name"> Your Name </label>
+                <input class="req-form" type="text" placeholder="Name">
 
-                    <label for="address"> Address <sup>*</sup> </label>
-                    <input class="req-form" type="address" name="address" required>
+                <label for="email"> Email  </label>
+                <input class="req-form" type="email" placeholder="email">
 
-                    <label for="PhoneNumber"> PhoneNumber <sup>*</sup> </label>
-                    <input class="req-form" type="Number" name="PhoneNumber" required>
-    
-                    <label for="bio">Your Interests & Line of Career<sup>*</sup> </label>
-                    <textarea  class="req-form"name="bio" id="" cols="30" rows="3"></textarea>
+                <label for="address"> Address  </label>
+                <input class="req-form" type="address" placeholder="address">
 
-                    <label for="MentorsName"> Mentors Name <sup>*</sup></label>
-                    <input class="req-form" type="text" name="MentorName" required>
-    
-                <button class="req-button" type="submit">Send A Request</button>
-                <button class="req-button" type="submit"><a  href="view-mentors.html" > Cancel </a></button>
+                <label for="PhoneNumber"> PhoneNumber  </label>
+                <input class="req-form" type="Number" placeholder="PhoneNumber">
+
+                <label for="bio">Your Interests & Line of Career</label>
+                <textarea class="req-form" name="bio" id="" cols="30" rows="3"></textarea>
+
+                <label for="MentorsName"> Mentors Name </label>
+                <input class="req-form" type="text" placeholder="MentorName">
+
+                <label for="MentorsName"> Proposed Time & Date </label>
+                <input class="req-form" type="text" placeholder="" >
+
+                <button class="req-button" type="submit"><a href="view-spec-mentor.html">Submit </a></button>
+                <button class="req-button" type="submit"><a href="view-mentors.html"> Cancel </a></button>
+               
             </form>
         </div>
     </div>
 </body>
+
 </html>
