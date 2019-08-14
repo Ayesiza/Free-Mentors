@@ -1,0 +1,172 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+   
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  h1{
+    color: #9933cc;
+  }
+body {
+    display: block;
+   
+  }
+  
+  a {
+    text-decoration: none;
+    
+  }
+.nav {
+    list-style-type: none;
+    background-color: #33b5e5;
+    margin:0;
+    padding:0;
+    overflow:hidden; 
+    position:fixed;
+    width:100%;
+    top:0;
+  }
+  
+  .nav_list {
+    float:left;
+     padding:10px
+  }
+  
+  .nav_list_link {
+    font-size:18px;
+    color: #ffffff;
+        display: block;
+    text-decoration: none;
+     text-align: center;
+      padding: 14px 16px; 
+  }
+  
+  .nav_list_link:hover {
+    background-color: #9933cc;
+    color: #ffffff;
+  }
+  
+  .nav_list_link.active {
+    background-color: #9933cc;
+    color:#ffffff;
+  }
+  
+  @media screen and (max-width:600px){
+    .nav_list {
+    float:none;
+    }
+  }
+  .footer {
+    background-color:#33b5e5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  .page-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+  .container {
+    margin: 20px;
+    width: 350px;
+    padding: 16px;
+    background-color: rgb(229, 243, 236);
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 20px 20px 0 black;
+  }
+  .product-card {
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  .product-card img {
+    width: 50%;
+  }
+  
+  .product-card .card-container {
+    width: 50%;
+    background: rgb(245, 247, 246);
+    text-align: center;
+  }
+  .form {
+    border-radius: 5px;
+    background-color: #003542;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #e5f3ec;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid  #b79dc4;
+    box-sizing: border-box;
+  }
+  label {
+    color: black;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  sup {
+    color: rgb(238, 25, 142);
+  }
+  .button {
+    background:  #9933cc;
+    color:#ffffff;
+    margin: 8px 0;
+    border: 1px solid #cfb1df;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background:  #cfb1df;
+    color: #ffffff;
+  }
+  .cancelbtn {
+    background: #9933cc;
+    color: #ffffff;
+    width: 100px;
+    border: 1px solid rgb(119, 126, 123);
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .cancelbtn:hover {
+    background: #cfb1df;
+    color: #ffffff;
+}
+  
+
+
+
+
