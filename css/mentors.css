@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 black;
+    display: flex;
+    margin-top: 5%;
+  }
+  /* mentor image */
+.card img {
+    width: 50%;
+}
+
+  .card .ment-container {
+    width: 50%;
+    background: rgb(245, 247, 246);
+    
+    overflow: hidden;
+  }
+  
+  .ment-container {
+    padding: 0 15px;
+  }
+  
+  .ment-container::after, .rows::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #9933cc;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #cfb1df;
+  }
+  /* mentor button */
+  .mentor-button{
+    background: #9933cc;
+    color: #ffffff;
+    width: 100px;
+    border: 1px solid rgb(119, 126, 123);
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+  }
+  
+  .mentor-button:hover{
+    background: #cfb1df;
+    color: #ffffff;
+}
+

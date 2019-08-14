@@ -7,26 +7,40 @@ h3 {
 }
 h1 {
   color: #003542;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 body {
   display: block;
-  background-color: rgb(208, 209, 224);
+ 
 }
 
 a {
   text-decoration: none;
-  color: rgb(238, 25, 142);
+  
 }
 
-.page-container {
+/* .page-container {
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+} */
+.blue{
+color:white;
+background: #3c16c5;
+}
+.green{
+  color:white;
+  background: #3c16;
+
+}
+.pink{
+  color:white;
+background: rgb(252, 28, 214);
+
 }
 
 ul {
@@ -71,7 +85,7 @@ li a {
   float: right;
 }
 
-.form {
+/* .form {
   border-radius: 5px;
   background-color: #003542;
   padding: 20px;
@@ -86,7 +100,7 @@ li a {
   display: inline-block;
   border: 1px solid #57CEA0;
   box-sizing: border-box;
-}
+} */
 
 
 /* Add styles to the form container auth*/
@@ -102,7 +116,7 @@ li a {
   box-shadow: 0 20px 20px 0 black;
 }
 
-.button {
+/* .button {
   background: #57CEA0;
   color: black;
   margin: 8px 0;
@@ -116,7 +130,7 @@ li a {
 .button:hover {
   background: #003542;
   color: gainsboro;
-}
+} */
 
 .hide-overflow {
   overflow: hidden;
@@ -124,10 +138,6 @@ li a {
 
 .mySlides {
   display: none;
-}
-
-img {
-  vertical-align: top;
 }
 
 
@@ -139,24 +149,11 @@ img {
   margin-right: 0px;
   display: flex;
   justify-content: center;
-  margin-top: 4px;
+  margin-top: 30px;
   flex-wrap: wrap;
-}
+  max-height: 50%;
 
-
-/* Caption text  on slide*/
-
-.text {
-  color: #57CEA0;
-  font-size: 20px;
-  padding: 8px 2px;
-  position: absolute;
-  width: 20%;
-  position: right;
-  top: 50%;
-  left: 10%;
-  background-color: black;
-  border-radius: 10px;
+ 
 }
 
 .cancelbtn {
@@ -214,16 +211,13 @@ img {
 }
 
 .mentor-button {
-  display: inline-block;
-  padding: 15px;
-  color: white;
-  background-color: #003542;
-  border: 1px solid rgb(114, 214, 245);
-  text-align: center;
-  cursor: pointer;
-  width: 50%;
-  margin-left: 10px;
-  margin-top: 10px;
+  
+  padding: 8px;
+  background-color: #9933cc;
+  color: #ffffff;
+  width: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .mentor-button:hover {
@@ -231,14 +225,18 @@ img {
 }
 
 .mentor-name {
-  color: #c51668;
+  color: rgb(233, 10, 177);
   font-size: 20px;
 }
 
 .mentor-address {
-  color: rgb(133, 92, 228);
+  color: rgb(60, 7, 185);
   font-size: 20px;
 }
+.mentees{
+  color: rgb(233, 10, 177);
+}
+
 
 .page-wrapper {
   display: flex;
@@ -285,6 +283,7 @@ img {
   display: flex;
   margin-top: 1%;
   margin-left: 50px;
+  overflow: hidden;
 }
 
 .mentor-card img {
@@ -299,11 +298,13 @@ img {
   float: left;
   margin-left: 90px;
   margin-top: 10px;
-  border: 1px solid rgb(215, 216, 228);
+  border: 4px solid rgb(0, 53, 66);
+  border-radius: 5px;
+
 }
 
 .big-button:hover {
-  background-color: rgb(187, 189, 223);
+  background-color: rgb(0, 53, 66);
 }
 
 h2 {
@@ -319,7 +320,7 @@ h2 {
 
 /* password form */
 
-label {
+/* label {
   color: black;
   font-size: 0.9em;
   display: block;
@@ -329,7 +330,7 @@ label {
 
 sup {
   color: rgb(238, 25, 142);
-}
+} */
 
 
 /* view specific */
@@ -342,7 +343,7 @@ sup {
   background-color: #003542;
 }
 
-.product-card {
+/* .product-card {
   display: flex;
   margin-top: 5%;
 }
@@ -355,7 +356,7 @@ sup {
   width: 50%;
   background: rgb(245, 247, 246);
   text-align: center;
-}
+} */
 
 
 /* request session */
@@ -380,10 +381,10 @@ label {
 }
 
 .req-container {
-  max-width: 500px;
+  width: 700px;
   padding: 15px;
-  background-color: rgb(135, 177, 161);
-  margin-top: 20px;
+  background-color: rgb(163, 165, 164);
+  margin-top: 10px;
   box-shadow: 0 20px 20px 0 black;
 }
 
@@ -413,11 +414,10 @@ label {
 
 table {
   width: 90%;
-  max-width: 95vw;
   border-collapse: collapse;
   border: none;
   display: block;
-  margin: 20px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -508,7 +508,7 @@ form.search {
   background: #f1f1f1
 }
 
-.product-card .content {
+/* .product-card .content {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
@@ -516,4 +516,42 @@ form.search {
   color: #f1f1f1;
   width: 47%;
   padding: 20px;
+} */
+.profile-container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 50px;
+  padding: 16px;
+  margin: auto;
+  width:50%;
+  display: table;
+}
+
+
+.profile-container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .profile-container {
+      text-align: center;
+  }
+  .profile-container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.email{
+color: blue
 }
