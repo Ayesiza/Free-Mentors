@@ -1,85 +1,170 @@
-html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 black;
-    display: flex;
-    margin-top: 5%;
-  }
-  /* mentor image */
+
+a{
+  text-decoration: none;
+}
+.page-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.button {
+  background: #33b5e5;
+  color: white;
+  width: 300px;
+  padding: 5px 20px;
+  margin-top: 1px;
+  border-radius: 3px;
+  border: solid 2px white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: #9933cc;
+  color: gainsboro;
+}
+
+
+
+
+.card {
+  max-width: 300px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  font-family: arial;
+  border: solid 1px gainsboro;
+  box-shadow: 0 20px 20px 0 black;
+  border-radius: 5px;
+}
+
+.nav-select {
+  margin: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.card-container {
+  height: auto;
+  padding-bottom: 20px;
+}
+
 .card img {
-    width: 50%;
+  height: 200px;
+  width: 100%;
 }
 
-  .card .ment-container {
-    width: 50%;
-    background: rgb(245, 247, 246);
-    
-    overflow: hidden;
-  }
-  
-  .ment-container {
-    padding: 0 15px;
-  }
-  
-  .ment-container::after, .rows::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #9933cc;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #cfb1df;
-  }
-  /* mentor button */
-  .mentor-button{
-    background: #9933cc;
-    color: #ffffff;
-    width: 100px;
-    border: 1px solid rgb(119, 126, 123);
-    padding: 10px 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    
-  }
-  
-  .mentor-button:hover{
-    background: #cfb1df;
-    color: #ffffff;
+.professional {
+  color: #9933cc;
+  font-size: 18px;
 }
 
+.card .button {
+  display: block;
+  border: none;
+  outline: 0;
+  margin: 0;
+  border-radius: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: rgb(255, 255, 255);
+  background-color: #33b5e5;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.right-nav {
+  float: right;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: gainsboro;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Add styles to the form container */
+
+.container {
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+.heading-text {
+  position: absolute;
+  z-index: 1030;
+  margin-top: 150px;
+  margin-left: 50px
+}
+.container-hero{
+  display: flex;
+  height: 250px;
+  background:rgb(36, 35, 35);
+  justify-content: center;
+}
+.land-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.mentor-card{
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+.mentor-card img{
+  width:50%
+}
+
+.mentor-card .card-container{
+  width: 50%;
+  background: gainsboro;
+  text-align: left;
+  padding: 10px;
+}
+
+.email{
+color: blue
+}

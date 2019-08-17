@@ -136,7 +136,7 @@ body {
   sup {
     color: rgb(238, 25, 142);
   }
-  .button {
+  .auth-button {
     background:  #9933cc;
     color:#ffffff;
     margin: 8px 0;
@@ -147,7 +147,7 @@ body {
     width: 100%;
   }
   
-  .button:hover {
+  .auth-button:hover {
     background:  #cfb1df;
     color: #ffffff;
   }
