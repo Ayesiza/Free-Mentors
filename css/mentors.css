@@ -45,7 +45,7 @@ a{
 
 
 .card {
-  max-width: 300px;
+  width: 300px;
   margin: 10px;
   background-color: white;
   text-align: center;
@@ -67,7 +67,7 @@ a{
 }
 
 .card img {
-  height: 200px;
+  
   width: 100%;
 }
 
