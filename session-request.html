@@ -5,74 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="./css/rating.css">
+    <!-- <link rel="stylesheet" href="./css/auth.css">  -->
     <title>Free Mentors</title>
 </head>
 
 <body>
    
-    <div>
-            <ul class="nav">
-                    <li class="nav_list"><a href="index.html" class="nav_list_link active">Home</a></li>
-                    <li class="nav_list"><a href="view-mentors.html" class="nav_list_link">Find a Mentor</a></li>
-                    <li class="nav_list"><a href="admin.html" class="nav_list_link">Volunteer</a></li>
-                    <li class="nav_list"><a href="mentor-login.html" class="nav_list_link">Donate</a></li>
-            </ul>
-        
-    </div>
-    <div class="row">
-        <div class="col-3 menu">
-           
+   
+<div id="form-outer">
+    <h1 id="title">Mentorship Session Request Form</h1>
+    <ul class="nav">
+        <li class="nav_list"><a href="index.html" class="nav_list_link active">Home</a></li>
+        <li class="nav_list"><a href="view-mentors.html" class="nav_list_link">Find a Mentor</a></li>
+       
+</ul>
+    <p id="description"> Fill in the this Form to make a Mentorship Request with your Mentor </p>
+      <form id="survey-form"  action="rating.html">
+        <div id="box-inner">
+        <div class="rowTab">
+          <div class="labels">
+            <label id="name-label" for="name">Name:</label>
+          </div>
+          <div class="rightTab">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+          </div>
         </div>
-
-        <div class="col-6">
-                <div>
-                        <p class="para-form">Fill in the this Form to make a Mentorship Request with your </p>
-                        <form class="req-container" action="">
-                            <h3>Mentorship Request Form </h3>
-            
-                            <label for="Name"> Your Name </label>
-                            <input class="req-form" type="text" placeholder="Name">
-            
-                            <label for="email"> Email  </label>
-                            <input class="req-form" type="email" placeholder="email">
-            
-                            <label for="address"> Address  </label>
-                            <input class="req-form" type="address" placeholder="address">
-            
-                            <label for="bio">Quetions</label>
-                            <textarea class="req-form" name="bio" id="" cols="30" rows="3"></textarea>
-                            
-                         <div>
-                            <label for="MentorsName"> Mentors Name </label>
-                            <select class="req-form" id="dropdown"  placeholder="Select Your Mentor">
-                                    <option ></option>
-                                    <option value= "name">John Blaq</option>
-                                    <option value="name">Sherifa Morgan</option>
-                                    <option value="name">Billy Blanks</option>
-                                    <option value="name">Martin Luther</option>
-                                    <option value="other">Adam Wills</option>
-                                  </select>
-                                </div>
-            
-                            <button class="req-button" type="submit"><a href="rating.html">Submit </a></button>
-                            <button class="req-button" type="submit"><a href="view-mentors.html"> Cancel </a></button>
-                           
-                        </form>
-                    </div>
+        <div class="rowTab">
+          <div class="labels">
+           <label id="email-label" for="email">Email:</label>
+          </div>
+          <div class="rightTab">
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          </div>
+        </div>
+        <div class="rowTab">
+                
+        <div class="rowTab">
+                <div class="labels">
+            <label for="dropdown">Mentor Name:</label>
+                </div>
+          <div class="rightTab">
+             <select id="dropdown" name="mentors">
+              <option >Select Your Mentor</option>
+              <option value= "name">John Blaq</option>
+              <option value="name">Sherifa Morgan</option>
+              <option value="name">Billy Blanks</option>
+              <option value="name">Martin Luther</option>
+              <option value="other">Adam Wills</option>
+            </select>
+          </div>
+           </div>
+        </div>
+        <div class="rowTab">
+            <div class="labels">
+              <label for="comments">Questions?</label>
             </div>
+              <div class="rightTab">
+          <textarea id="comments" name="comment" placeholder="Write your questions here.." ></textarea>  
+            </div>
+          </div>
         </div>
-    </div>
-
-    <div class="footer">
-        <p>Website: www.freementors.ug    TelephoneNumber: +225574584948  Email: freementor@you.com</p>
-        
-    </div>
-
-    <script src="index.js">
-    </script>
+        <div id="box-inner">
+                <div class="rowTab">
+           <div class="labels">
+             <label for="comments">Any Suggestions on mentorship session?</label>
+           </div>
+             <div class="rightTab">
+         <textarea id="comments" name="comment" placeholder="Write something.." ></textarea>  
+           </div>
+         </div>
+          </div>
+       <button id="submit" type="submit">Submit</button> 
+      </form>
+        </div>
+  
+        <script src="./js/accept.js" >
+            
+        </script>
 </body>
 
 </html>
