@@ -1,112 +1,110 @@
 
 html, body{
-    background-color: rgb(250, 250, 250);
-    text-align: center;
-    min-width:300px;
-    font-family: Raleway; 
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+  min-width:300px;
+  font-family: Raleway; 
+}
+
+#title{
+  background: linear-gradient(90deg,#0082c8, #9933cc);
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Lobster;
+}
+
+#form-outer{
+  width: 50%;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width:40%;
+  padding:5px;
+  margin-top:10px;
+  vertical-align: top;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width:45%;
+  vertical-align: middle;
+}
+
+.rowTab{
+  margin: 10px;
+}
+
+input[type=text], input[type=email], input[type=number], #dropdown,#comments{
+  resize:vertical; 
+  width:100%;
+  padding: 12px ;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(200, 200, 250);
+  background: inherit;
+}
+
+#box-inner, fieldset{
+   border: 1px solid rgb(200, 200, 250);
+   box-shadow: 0 10px 40px rgba(200, 200, 250, 0.3); 
+}
+
+#box-inner{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.radio, .checkbox{
+  display: block;
+  position: relative;
+  left:-40px;
+  margin-bottom:10px;
+}
+
+ul{
+  list-style: none;
+}
+
+
+#submit{
+  background-color: #4d5aca;
+  color: white;
+  font-size:20px;
+  font-family: Lobster;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:50px;
+  box-shadow: 0 10px 40px rgba(188, 48, 243, 0.3);
+  float:right;
+}
+
+#submit:hover{
+  background-color: #00aeef;
+}
+
+@media (max-width: 550px){
+  .rightTab{
+    float:left;
+    width: 80%;
   }
-  
-  #title{
-    background: linear-gradient(90deg,#9933cc, #00aeef,#0082c8, #9933cc);
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Lobster;
+  .labels{
+    text-align:left;
+    width:100%; 
   }
-  
-  #form-outer{
-    width: 70%;
-    margin: 0 auto;
-    max-width: 900px;
-  }
-  
-  .labels {
-    display: inline-block;
-    text-align: right;
-    width:40%;
-    padding:5px;
-    margin-top:10px;
-    vertical-align: top;
-  }
-  
-  .rightTab {
-    display: inline-block;
-    text-align: left;
-    width:45%;
-    vertical-align: middle;
-  }
-  
-  .rowTab{
-    margin: 10px;
-  }
-  
-  input[type=text], input[type=email], input[type=number], #dropdown {
-    width:auto;
-    padding: 12px ;
-    margin: 3px 0;
-    box-sizing: border-box;
-    border: 1px solid #00aeef;
-    background: inherit;
-  }
-  
-  #box-inner, fieldset{
-     border: 1px solid rgb(200, 200, 250);
-     box-shadow: 0 10px 40px rgba(200, 200, 250, 0.3); 
-  }
-  
   #box-inner{
-     margin-top: 30px;
-     margin-bottom: 30px;
-  }
-  
-  .radio, .checkbox{
-    display: block;
-    position: relative;
-    left:-40px;
-    margin-bottom:10px;
-  }
-  
-  ul{
-    list-style: none;
-  }
-  
+    height:400px;  
+  } 
   #comments{
-    height:70px; 
+    height:30px;
     width:100%;
-    resize:vertical; 
   }
-  
-  #submit{
-    background-color: #00aeef;
-    color: white;
-    font-size:25px;
-    font-family: Lobster;
-    padding: 10px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom:30px;
-    box-shadow: 0 10px 40px rgba(200, 200, 250, 0.3);
-  }
-  
-  #submit:hover{
-    background-color: #00aeef;
-  }
-  
-  @media (max-width: 550px){
-    .rightTab{
-      float:left;
-      width: 80%;
-    }
-    .labels{
-      text-align:left;
-      width:100%; 
-    }
-    #box-inner{
-      height:400px;  
-    } 
-    #comments{
-      height:30px;
-      width:100%;
-    }
-  }
-  
-  
+}
+
