@@ -74,7 +74,7 @@ h1{
 }
 a {
   text-decoration: none;
-  
+  color:rgb(238, 25, 142)
 }
 label{
   float:left;
@@ -180,6 +180,8 @@ label{
 }
 .content img {
     float: left;
+    width:100px;
+    height:100px;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -195,4 +197,3 @@ label{
     width: 100%;
   }
 }
-
