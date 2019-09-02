@@ -2,14 +2,6 @@
 a{
   text-decoration: none;
 }
-.page-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  margin-top: 100px;
-}
-
 .page-wrapper {
   display: flex;
   justify-content: center;
@@ -17,14 +9,6 @@ a{
   flex-wrap: wrap;
 }
 
-.nav-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  z-index: 1030;
-}
 
 .button {
   background: #33b5e5;
@@ -51,14 +35,7 @@ a{
   text-align: center;
   font-family: arial;
   border: solid 1px gainsboro;
-  box-shadow: 0 1px 1px 0 black;
   border-radius: 5px;
-}
-
-.nav-select {
-  margin: 8px;
-  padding: 5px 10px;
-  font-size: 14px;
 }
 
 .card-container {
@@ -67,7 +44,6 @@ a{
 }
 
 .card img {
-  
   width: 100%;
 }
 
@@ -112,65 +88,63 @@ a{
   margin-top: 50px;
 }
 
-
-
-.container {
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
-  margin-top: 50px;
-  border-radius: 5px;
-  text-align: center;
-}
-
 .hide-overflow {
   overflow: hidden;
-}
-.heading-text {
-  position: absolute;
-  z-index: 1030;
-  margin-top: 150px;
-  margin-left: 50px
-}
-.container-hero{
-  display: flex;
-  height: 250px;
-  background:rgb(36, 35, 35);
-  justify-content: center;
-}
-.land-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  flex-wrap: wrap;
 }
 
 .mentor-card{
   display: flex;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 80%;
+  width:100%;
+  flex-wrap: wrap;
+  
+  
 }
 .mentor-card img{
-  width:50%
+  width: 46.6%;
+
 }
 
-.mentor-card .card-container{
-  width: 50%;
+.spec-container {
   background: gainsboro;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
+  width: 46.6%;
 }
 
+.specmentor-frame{
+  width:100%;
+  max-height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-sizing: border-box;  
+  }
+
+
 .email{
-color: blue
+color: blue;
 }
 
 
 .card:hover {
   transform: scale(1.08); 
 }
-.left-side{
-  float:left;
+.right-side{
+  float: right;
+}
+
+@media screen and (max-width: 650px) {
+  .mentor-card img{
+    width: 100%;
+      
+  }
+  .right-side{
+    float: left;
+  }
+  
+  .spec-container {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

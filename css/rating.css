@@ -14,10 +14,11 @@ html, body{
 }
 
 #form-outer{
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   max-width: 900px;
   background-color: whitesmoke;
+  border: solid 1px gainsboro;
   overflow: hidden;
 }
 
@@ -81,7 +82,7 @@ ul{
   padding: 10px 30px;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom:50px;
+  margin-bottom:10px;
   box-shadow: 0 10px 40px rgba(188, 48, 243, 0.3);
   float:right;
 }
