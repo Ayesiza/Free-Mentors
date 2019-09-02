@@ -27,7 +27,7 @@ h1{
 }
 
 .header {
-  background: linear-gradient(90deg,#6700DF, #b57cf7);
+  background: linear-gradient(90deg, rgb(41, 0, 223),#6700DF);
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -39,9 +39,8 @@ h1{
 	width: 50px;
   height: 50px;
   margin-left: 50px;
-
- 
 }
+
 .para-logo{
   margin-top: 0%;
   font-size: 25px;
@@ -90,7 +89,7 @@ label{
 }
 
 .footer {
-  background: linear-gradient(90deg, #b57cf7,#6700DF,#6700DF);
+  background: linear-gradient(90deg,rgb(41, 0, 223),#6700DF);
   color: #ffffff;
   text-align: center;
   font-size: 12px;
@@ -143,9 +142,14 @@ label{
 .home-image img {
   margin: auto;
   width: 100%;
-  height: 500px;
+  height: auto;
 }
-
+/* images in slide */
+.image-frame{
+  width:100%;
+  max-height: 450px;
+  overflow: hidden;
+}
 
 .test-row {
   margin: 8px 16px;
@@ -173,7 +177,7 @@ label{
   clear: both;
 }
 
-/* Content */
+/* Content testmonials*/
 .content {
   background-color: white;
   padding: 10px;
@@ -197,3 +201,15 @@ label{
     width: 100%;
   }
 }
+/* text on image */
+.middle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 50px;
+  color:whitesmoke;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-style: inherit
+}
+
