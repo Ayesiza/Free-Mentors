@@ -5,10 +5,16 @@ body {
  
 }
 .bg-image{
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/mentoring_process.jpg");
   background-size: cover;
-
+  min-height: 300px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
 
 .topnav {
   overflow: hidden;
@@ -48,7 +54,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: absolute;top: 0;width: 100%;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
