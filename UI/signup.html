@@ -16,32 +16,45 @@
         <div class="topnav" id="myTopnav">
                 <a href="index.html" class="active">Home</a>
                 <a href="view-mentors.html">Find a Mentor</a>
-                <a href="#contact">Contact Us</a>
                 <a href="#" class="icon" onclick="myFunction()">
-                        &#9776;
+                    &#9776;
                 </a>
-              
+                <div class="logins">
+                      <button class="dropbtn">Logins </button>
+                        <div class="logins-content">
+                          <a href="signin.html">Login</a>
+                          <a href="admin.html">Admin Login</a>
+                          <a href="mentor-login.html">Mentor LogIn</a>
+                        </div>  
+              </div>
             </div>
              
       <div class="row">   
     <div class="page-container">
-            <form class="container" action="dashboard.html">
-                    <h3>Admin LogIn</h3>
+            <form class="container" action="signin.html">
+                    <h3>SignUp For Free </h3>
+                    <label for="firstName"> First Name <sup>*</sup></label>
+                    <input class="formInput" type="text" placeholder="firstName" required>
+
+                    <label for="lastName"> Last Name <sup>*</sup> </label>
+                    <input class="formInput" type="text" placeholder="lastName" required>
+
                     <label for="email"> Email <sup>*</sup> </label>
                     <input class="formInput" type="email" placeholder="email" required>
 
                     <label for="password"> Password <sup>*</sup> </label>
                     <input class="formInput" type="password" placeholder="password" required>
-                    <br>
-                    <button class="auth-button" type="submit">LogIn</button>
 
-                    <p>Have no account? <a href="signup.html">SignUp</a></p>
-                 
+                    <button class="auth-button" type="submit">Signup</button>
+                    <span> Already a user? <a href="signin.html" id="show-signin"> Login </a></span>
                 </form>
                 
             </div>
         </div>
     </div>
+</div>
+<div class="footer">
+    <p> Website: www.freementors.ug</p>
 </div>
 <script src="./js/accept.js" >
             
@@ -49,3 +62,4 @@
 </body>
 
 </html>
+
