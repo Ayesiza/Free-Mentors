@@ -16,7 +16,6 @@ h1{
   font-size: 16px;
   padding: 15px;
   font-weight: 500;
-  
   width: 100%;
   bottom: 0;
 }
@@ -132,7 +131,7 @@ h1{
 }
 
 .navbar a:hover, .logins:hover .dropbtn {
-  background-color: #994fee;
+  background-color: #646366;
 }
 
 .logins-content {
@@ -544,7 +543,7 @@ a{
 
 
 .button {
-  background: #007bff;
+  background: rgb(25, 71, 25);
   padding: 7px 20px;
   margin-top: 1px;
   border-radius: 3px;
@@ -555,7 +554,7 @@ a{
 }
 
 .button:hover {
-  background: #9933cc;
+  background: #07367b;
   color: gainsboro;
 }
 
@@ -724,7 +723,7 @@ p{
   background: rgb(248, 82, 82);
 }
 .green{
-  background:rgba(2, 146, 2, 0.986);
+  background:rgb(25, 71, 25);
 }
 .row{
   margin: 1rem;
@@ -747,4 +746,24 @@ caption{
     width: 100%;
       
   }
+}
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
