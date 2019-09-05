@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/mentors.css">
-    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Free Mentors</title>
 </head>
 
@@ -14,41 +13,56 @@
         <div class="topnav" id="myTopnav">
                 <a href="index.html" class="active">Home</a>
                 <a href="view-mentors.html">Find a Mentor</a>
-                <a href="#contact">Contact Us</a>
-                <a href="#contact">Volunteer</a>
-                <a href="#contact">Donate</a>
                 <a href="#" class="icon" onclick="myFunction()">
                         &#9776;
                 </a>
-                <a  class="right-side"  href="index.html">Logout</a>
-                
+                <div class="logins">
+                        <button class="dropbtn">Login   
+                        </button>
+                        <div class="logins-content">
+                          <a href="signup.html">SignUp</a>
+                          <a href="admin.html">Admin Login</a>
+                          <a href="mentor-login.html">Mentor LogIn</a>
+                        </div>
+                    </div>
             </div>
-            
+
     <div class="page-wrapper">
             <div class="specmentor-frame">
         <div class="mentor-card">
             <img src="./images/mentor5.jpg" alt="guidance">
             <div class="spec-container">
-                <p class="mentor-address"> Do You Need My Help? 
                 <h2>Keti Millers</h2>
                 <p class="professional">Lawyer & Law advocate </p>
-                <p class="owner">Name: Peter smith</p>
                 <p><a href="mailto:ket@gmail.com">ket@gmail.com</a></p>
-                <p class="Status">AREAS OF EXPERTISE: Business Strategy & Planning Government & Regulations Non-Profit Business Operations
-                    </p>
-               
-                <p class="adress">Adress:Lumumba Avenue Kigali</p>
-                <p class="type">BIOGRAPHY: Fourteen years as Executive Officer for a network of 300+ medical centers conducting pediatric cancer research. Responsible for strategic planning, overall direction and management of organization,
-                    </p>
-                <p class="date">EDUCATION:
-                Honors in Psyphology PhD: Regulatory Biology. MBA.</p>
-                <a class="button" type="button" href="signin.html">Request A Session</a>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td  data-label="">AREAS OF EXPERTISE:</td>
+                            <td >Business Strategy & Planning Government & Regulations Non-Profit Business Operations</td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td data-label="">Lumumba Avenue Kigali</td>
+                        </tr>
+                        <tr>
+                            <td>BIOGRAPHY:</td>
+                            <td data-label="">Fourteen years as Executive Officer for a network of 300+ medical centers conducting pediatric cancer research. Responsible for strategic planning, overall direction and management of organization</td>
+                        </tr>
+                        <tr>
+                                <td>EDUCATION:</td>
+                                <td data-label="EDUCATION:">Honors in Psyphology PhD: Regulatory Biology. MBA.</td>
+                            </tr>
+                    </tbody>
+                    </table>
+                <a class="button green" type="button" href="signin.html">Request A Session</a>
+                <a class="button red" type="button" href="rating.html">Review mentor</a>
             </div>
             </div>
         </div>
     </div>
-     
-   
+
+    
     <script src="./js/accept.js" >
             
     </script> 
